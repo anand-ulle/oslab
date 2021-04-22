@@ -1,0 +1,40 @@
+## AIM:
+
+To write C Programs using the following system calls of UNIX operating system fork, exec, getpid, exit, wait, close, stat, opendir, readdir.
+
+*PROGRAM FOR SYSTEM CALLS OF UNIX OPERATING SYSTEMS (OPENDIR, READDIR, CLOSEDIR)*
+
+*ALGORITHM:*
+
+STEP 1: Start the program.
+
+STEP 2: Create struct dirent.
+
+STEP 3: declare the variable buff and pointer dptr. 
+
+STEP 4: Get the directory name.
+
+STEP 5: Open the directory.
+
+STEP 6: Read the contents in directory and print it. 
+
+STEP 7: Close the directory.
+
+
+*PROGRAM FOR SYSTEM CALLS OF UNIX OPERATING SYSTEM (fork, getpid, exit)*
+
+*ALGORITHM:*
+
+STEP 1: Start the program.
+
+STEP 2: Declare the variables pid,pid1,pid2. 
+
+STEP 3: Call fork() system call to create process. 
+
+STEP 4: If pid==-1, exit.
+
+STEP 5: Ifpid!=-1 , get the process id using getpid(). 
+
+STEP 6: Print the process id.
+
+STEP 7:Stop the program
