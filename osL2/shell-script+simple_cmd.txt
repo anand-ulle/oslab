@@ -1,0 +1,68 @@
+Today's Lab experiments
+
+1. Program for simulation of cp unix commands
+ALGORITHM:
+STEP1: Start the program
+STEP 2:Declare the variables ch, *fp, sc=0
+STEP3: Open the file in read mode
+STEP 4: Get the character
+STEP 5: If ch== “ “ then increment sc value by one
+STEP 6: Print no of spaces
+STEP 7:Close the file
+
+2. PROGRAM FOR SIMULATION OF LS UNIX COMMANDS
+ALGORTIHM:
+STEP1 : Start the program
+STEP2 : Open the directory with directory object dp
+STEP3 : Read the directory content and print it.
+STEP4: Close the directory.
+
+3. PROGRAM FOR SIMULATION OF GREP UNIX COMMANDS
+ALGORITHM
+STEP1: Start the program
+STEP2: Declare the variables fline[max], count=0, occurrences=0 and pointers *fp,
+*newline.
+STEP 3: Open the file in read mode.
+STEP4: In while loop check fgets(fline,max,fp)!=NULL13 | P a g e
+STEP 5: Increment count value.
+STEP 6: Check newline=strchr(fline, „\n‟)
+STEP 7: print the count,fline value and increment the occurrence value.
+STEP 8: Stop the program
+
+------------------------------------------------------------------------------------------------------
+                                  SHELL Scripting
+                                  
+1.Write a Shell program to check the given number is even or odd
+ALGORITHM:
+SEPT 1: Start the program.
+STEP 2: Read the value of n.
+STEP 3: Calculate „r=expr $n%2‟.
+STEP 4: If the value of r equals 0 then print the number is even
+STEP 5: If the value of r not equal to 0 then print the number is odd.
+
+2.Write a Shell program to check the given number is even or odd
+ALGORITHM:
+SEPT 1: Start the program.
+STEP 2: Read the value of n.
+STEP 3: Calculate „r=expr $n%2‟.
+STEP 4: If the value of r equals 0 then print the number is even
+STEP 5: If the value of r not equal to 0 then print the number is odd.
+
+3.Write a Shell program to check the given number is even or odd
+ALGORITHM:
+SEPT 1: Start the program.
+STEP 2: Read the value of n.
+STEP 3: Calculate „r=expr $n%2‟.
+STEP 4: If the value of r equals 0 then print the number is even
+STEP 5: If the value of r not equal to 0 then print the number is odd.
+
+4.Write a Shell program to check the given number is even or odd
+ALGORITHM:
+SEPT 1: Start the program.
+STEP 2: Read the value of n.
+STEP 3: Calculate „r=expr $n%2‟.
+STEP 4: If the value of r equals 0 then print the number is even
+STEP 5: If the value of r not equal to 0 then print the number is odd.
+
+
+
