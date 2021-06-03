@@ -1,0 +1,37 @@
+To write a C program for implementation memory allocation methods for fixed partition 
+using first fit.
+ALGORITHM:
+Step 1:Define the max as 25.
+Step 2: Declare the variable frag[max],b[max],f[max],i,j,nb,nf,temp, highest=0, bf[max],ff[max].
+Step 3: Get the number of blocks,files,size of the blocks using for loop.
+Step 4: In for loop check bf[j]!=1, if so temp=b[j]-f[i]
+Step 5: Check highest<temp,if so assign ff[i]=j,highest=temp
+Step 6: Assign frag[i]=highest, bf[ff[i]]=1,highest=0
+Step 7: Repeat step 4 to step 6.
+Step 8: Print file no,size,block no,size and fragment.
+Step 9: Stop the program
+
+To write a C program for implementation of FCFS and SJF scheduling algorithms.
+ALGORITHM:
+Step 1:Define the max as 25.
+Step 2: Declare the variable frag[max],b[max],f[max],i,j,nb,nf,temp, highest=0, bf[max],ff[max].
+Step 3: Get the number of blocks,files,size of the blocks using for loop.
+Step 4: In for loop check bf[j]!=1, if so temp=b[j]-f[i]
+Step 5: Check temp>=0,if so assign ff[i]=j break the for loop.
+Step 6: Assign frag[i]=temp,bf[ff[i]]=1;
+Step 7: Repeat step 4 to step 6.
+Step 8: Print file no,size,block no,size and fragment.
+Step 9: Stop the program.
+
+To write a C program for implementation of FCFS and SJF scheduling algorithms.
+ALGORITHM:
+Step 1:Define the max as 25.
+Step 2: Declare the variable frag[max],b[max],f[max],i,j,nb,nf,temp, highest=0, bf[max],ff[max].
+Step 3: Get the number of blocks,files,size of the blocks using for loop.
+Step 4: In for loop check bf[j]!=1, if so temp=b[j]-f[i]
+Step 5: Check lowest>temp,if so assign ff[i]=j,highest=temp
+Step 6: Assign frag[i]=lowest, bf[ff[i]]=1,lowest=10000
+Step 7: Repeat step 4 to step 6.
+Step 8: Print file no,size,block no,size and fragment.
+Step 9: Stop the program.
+
