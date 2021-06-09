@@ -1,0 +1,48 @@
+To write a c program to implement Paging technique for memory management.
+ALGORITHM:
+Step 1: Start the process
+Step 2: Declare page number, page table, frame number and process size.
+Step 3: Read the process size, total number of pages
+Step 4: Read the relative address
+Step 5: Calculate the physical address
+Step 6: Display the address
+Step 7: Stop the process
+
+To write a C program for implementation of FIFO page replacement algorithm.
+ALGORITHM:
+Step 1: Start the program.
+Step 2: Declare the necessary variables.
+Step 3: Enter the number of frames.
+Step 4: Enter the reference string end with zero.
+Step 5: FIFO page replacement selects the page that has been in memory the longest time and 
+ when the page must be replaced the oldest page is chosen.
+Step 6: When a page is brought into memory, it is inserted at the tail of the queue.
+Step 7: Initially all the three frames are empty.
+Step 8: The page fault range increases as the no of allocated frames also increases.
+Step 9: Print the total number of page faults.
+Step 10: Stop the program.
+
+To write a c program to implement LRU page replacement algorithm.
+ALGORITHM:
+Step 1: Start the process
+Step 2: Declare the size
+Step 3: Get the number of pages to be inserted
+Step 4: Get the value
+Step 5: Declare counter and stack
+Step 6: Select the least recently used page by counter value
+Step 7: Stack them according the selection.
+Step 8: Display the values
+Step 9: Stop the process
+
+To write C program to implement LFU page replacement algorithm.
+ALGORITHM:
+Step 1: Start the process
+Step 2: Declare the size
+Step 3: Get the number of pages to be inserted
+Step 4: Get the value
+Step 5: Declare counter and stack
+Step 6: Select the least frequently used page by counter value
+Step 7: Stack them according the selection.
+Step 8: Display the values
+Step 9: Stop the process
+
